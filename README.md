@@ -1,7 +1,6 @@
 # GildedRose Kata - PHP Version
 
-See the [top level readme](../README.md) for general information about this exercise. This is the PHP version of the
-GildedRose Kata.
+Este repository está dedicado a la adaptación de la kata para refactorizar de GildedRose al lenguaje PHP. La rama principal (main) será la rama que contenga el código sin refactorizar y, la solución, estará disponible en una nueva rama main-solution
 
 ## Installation
 
@@ -16,16 +15,6 @@ Recommended:
 
 See [GitHub cloning a repository](https://help.github.com/en/articles/cloning-a-repository) for details on how to
 create a local copy of this project on your computer.
-
-```sh
-git clone git@github.com:emilybache/GildedRose-Refactoring-Kata.git
-```
-
-or
-
-```shell script
-git clone https://github.com/emilybache/GildedRose-Refactoring-Kata.git
-```
 
 Install all the dependencies using composer
 
@@ -73,13 +62,6 @@ project run:
 
 ```shell script
 composer tests
-```
-
-A Windows a batch file has been created, like an alias on Linux/Mac (e.g. `alias pu="composer tests"`), the same
-PHPUnit `composer tests` can be run:
-
-```shell script
-pu.bat
 ```
 
 ### Tests with Coverage Report
